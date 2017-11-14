@@ -1,0 +1,15 @@
+/* these styles remove the space & scrollbars around the canvas */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/assets/static/bg/black_bg.png");
+    background-repeat: repeat-x;
+    background-position: left;
+    background-size: contain;
+
+    font-family: 'Orbitron', sans-serif;
+}
+canvas {
+    display: block;
+    background: transparent;
+}
